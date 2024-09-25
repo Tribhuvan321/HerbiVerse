@@ -9,6 +9,10 @@ TagManager:
   - Skin
   - Immunity
   - Digest
+  - SkinCare
+  - SkinFilter
+  - ImmunityFilter
+  - DigestFilter
   layers:
   - Default
   - TransparentFX

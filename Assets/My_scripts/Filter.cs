@@ -11,7 +11,7 @@ public class Filter : MonoBehaviour
     {
         foreach (var item in cardList)
         {
-            if(item.tag == "Skin")
+            if(item.tag == "SkinFilter")
             {
                 item.SetActive(true);
             }
@@ -25,7 +25,7 @@ public class Filter : MonoBehaviour
     {
         foreach (var item in cardList)
         {
-            if (item.tag == "Immunity")
+            if (item.tag == "ImmunityFilter")
             {
                 item.SetActive(true);
             }
@@ -39,7 +39,7 @@ public class Filter : MonoBehaviour
     {
         foreach (var item in cardList)
         {
-            if (item.tag == "Digest")
+            if (item.tag == "DigestFilter")
             {
                 item.SetActive(true);
             }

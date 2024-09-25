@@ -41,10 +41,10 @@ public class AIMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && !isMoving && currentIndex < targets.Length)
+        /*if (Input.GetKeyDown(KeyCode.Space) && !isMoving && currentIndex < targets.Length)
         {
             MoveToNextTarget();
-        }
+        }*/
     }
 
     public void SelectTheme(Button button)
